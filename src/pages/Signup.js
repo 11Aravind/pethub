@@ -1,6 +1,10 @@
 import Inputtxt from "../component/Inputtxt"
+import { useEffect } from "react"
 
 export default function Signup() {
+  useEffect=(()=>{
+    console.log("it work all time...");
+  })//ellathilum work akum
   return (
     <div className="logincontainer">
      

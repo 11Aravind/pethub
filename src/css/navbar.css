@@ -13,6 +13,7 @@ nav{
 .menu-container li{
     list-style: none;
     flex: .1;
+    padding: 13px;
 /* font-weight: 600; */
 }
 .menu-container li a{
@@ -44,15 +45,17 @@ nav{
     padding: 1px;
 }
 /* media query  */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
    
 }
-@media (max-width: 480px){
+@media (max-width: 768px){
  
     .navbar-container-show{
         width: 50%;
     position: absolute;
-    background: yellow;
+    /* background: yellow; */
+    /* background: #74e0e5; */
+    background: #c9cdcadb;
     z-index: 200;
     height: 1000px;
 
@@ -66,7 +69,7 @@ nav{
     .phone-menu{
         display: block;
         position: absolute;
-    left: 15px;
+    right: 15px;
     top: 12px;
     }
     .menu-container{
@@ -81,9 +84,15 @@ nav{
     .logo{
         display: flex;
         font-size: 15px;
-        justify-content: right;
+        /* justify-content: right; */
         font-weight: 600;
         padding: 7px;
     
+    }
+    .logo-content{
+        display: none;
+    }
+    .show{
+        display:block;
     }
 }
