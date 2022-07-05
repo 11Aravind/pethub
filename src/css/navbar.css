@@ -10,12 +10,18 @@ nav{
     /* flex-wrap: wrap; */
     width: 100%;
 }
+.none{
+    display:none;
+}
 .menu-container li{
     list-style: none;
     flex: .1;
     padding: 13px;
 /* font-weight: 600; */
 }
+/* .show{
+    display: none;
+} */
 .menu-container li a{
     text-decoration: none;
     color: black;

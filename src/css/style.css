@@ -14,12 +14,11 @@ font-size: 40px;
     padding: 26px;
     font-weight: revert;
 }
-.highlight{
-color: #16b531;
-}
+
 .login-btn{
     padding: 4px 6px;
-    background: #16b531;
+    /* background: #16b531; */
+    background-color: #61dda9;
     border: none;
     color: white;
     border-radius: 4px;
@@ -42,3 +41,37 @@ color: #16b531;
     border-left: 3px solid green;
     height: 100%;
   }
+  .bannerImgDiv{
+    width: 100%;
+    height: 500px;
+    background-image: url('../../public/asset/image/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px; 
+  }
+  .bannerContent{
+    margin-left: 91px;
+    width: 41%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: #16b531; */
+  }
+  .bannerButton{
+    background-color: #4b5fac;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .firstText{
+    color: #50b98e;
+  }
+  .secondText{
+    color: #4b5fac;
+  }
+  /* .highlight{
+    color: #16b531;
+    } */

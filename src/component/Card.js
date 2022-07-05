@@ -4,7 +4,7 @@ export default function Card() {
     <div className="single-card">
     <div className="card-container">
       <div className="card-image">
-      <img src="https://static.freshtohome.com/media/catalog/product/cache/0/image/600x400/18ae109e34f485bd0b0c075abec96b2e/c/h/chicken_small_curry_cut.jpeg" alt="img" />
+      <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt="img" />
       </div>
       <div className="card-description">
         <h4 className="card-headding">Pet Food Special - Chunky Chicken Meat and Bones (Small Cut, 500g pack)</h4>

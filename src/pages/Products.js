@@ -5,7 +5,7 @@ function Products() {
   return (
     <div>
 
-          <h2 className="main-headding">OUR  <span className="highlight">PETS</span></h2>
+          <h2 className="main-headding firstText">OUR  <span className="secondText">PETS</span></h2>
       <div className="row">
         {/* single card design start  */}
     
