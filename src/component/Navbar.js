@@ -27,7 +27,7 @@ function Navbar() {
    <div className={showPhonemenu?"phone-menu show":"hide none"}  onClick={()=>handleMenu(!showPhonemenu)}>&#x2715;</div>
    {/* </li> */}
     <li className={showPhonemenu?" show-list":"hide"}><button className="login-btn"><Link to='/login' style={{color:"white"}}>Sign in</Link></button></li>
-    <li><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  </li>
+    <li><i className={showPhonemenu?"fa fa-cart-arrow-down show-list":"hide"} class="fa fa-cart-arrow-down" aria-hidden="true"></i>  </li>
 </ul>
    </div>
   )

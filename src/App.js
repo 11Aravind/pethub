@@ -8,6 +8,7 @@ import Notfound from "./pages/Notfound";
 import Home from "./pages/Home";
 import Products from "./pages/Products"
 import Signup from "./pages/Signup"
+import Productdetails from "./pages/Productdetails"
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
      <Route path="/pets" element={<Products />}/>
      <Route path="/login" element={<Login />}/>
      <Route path="/register" element={<Signup />}/>
-     
+     <Route path="/Productdetails" element={<Productdetails />}/>
       <Route path='*' element={<Notfound/>}> </Route>
 
       </Routes>

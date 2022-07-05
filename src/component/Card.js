@@ -1,7 +1,9 @@
-
+import { Link } from "react-router-dom";
 export default function Card() {
   return (
+  
     <div className="single-card">
+        <Link className="link"to='/Productdetails'>
     <div className="card-container">
       <div className="card-image">
       <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt="img" />
@@ -19,7 +21,9 @@ export default function Card() {
         </div>
       </div>
     </div>
+    </Link>
   </div>
+  
   )
 }
 
