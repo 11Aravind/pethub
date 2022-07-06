@@ -107,7 +107,29 @@
   padding: 5px 9px;
   border-radius: 3px;
   background-color: #50b98e;
+  margin-left: 43px;
 }
 .bottonContainer {
+  margin: 22px;
   display: flex;
 }
+.bannerHeadding{
+font-size: x-large;
+}
+
+
+
+
+@media (max-width: 768px){
+  .productDetailContainer{
+    flex-direction: column;
+  }
+    .bottonContainer{
+      flex-direction: column;
+      /* margin: ; */
+    }
+    .BuyBtn{
+      margin-left: 0;
+      margin-top: 12px;
+    }
+  }

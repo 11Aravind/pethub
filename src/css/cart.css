@@ -1,0 +1,17 @@
+.cartItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productContent{
+flex:.4;
+}
+.productImage{
+flex:.2;
+}
+.quantity{
+ flex:.2;   
+}
+.deleteProductBtn{
+flex:.2;
+}

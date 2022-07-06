@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products"
 import Signup from "./pages/Signup"
 import Productdetails from "./pages/Productdetails"
+import Cart from './pages/Cart'
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,9 @@ function App() {
      <Route path="/login" element={<Login />}/>
      <Route path="/register" element={<Signup />}/>
      <Route path="/Productdetails" element={<Productdetails />}/>
+     <Route path="cart/" element={<Cart />}/>
+
+    
       <Route path='*' element={<Notfound/>}> </Route>
 
       </Routes>

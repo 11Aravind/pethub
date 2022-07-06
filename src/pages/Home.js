@@ -9,8 +9,7 @@ function Home() {
       <div className="bannerImgDiv">
         <div className="bannerContent">
           <div>
-            <h1>PETHUB.COM</h1>
-            <h2>For Pet Caring</h2>
+            <h1 className="bannerHeadding">PETHUB.COM <br />  For Pet Careing</h1>
             <h3 className="secondText">Kollam</h3>
             <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
             vero magnam non dignissimos unde,</small>
