@@ -30,8 +30,8 @@ Unlock additional steal deals on orders above ₹800T&C
 <li>Manufactured date 01 May 2022</li>
 </ul>
 <div className="bottonContainer">
-<div className="cartBtn secondText"><Link to="/cart"><i  class="fa fa-cart-arrow-down" aria-hidden="true"> Add To Cart</i></Link> </div>
-<div className="BuyBtn "><i class="fa fa-bolt" aria-hidden="true">BuyNow</i>  </div>
+<div className="cartBtn "><Link to="/cart"><i  class="fa fa-cart-arrow-down" aria-hidden="true"> Add To Cart</i></Link> </div>
+<div className="BuyBtn Common-background"><i class="fa fa-bolt" aria-hidden="true">BuyNow</i>  </div>
 </div>
         </div>
         
